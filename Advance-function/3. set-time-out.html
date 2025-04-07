@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>set-time-out</title>
+</head>
+<body>
+    <script>
+        let alarm = ()=>
+            console.log("Good Morning, wakeup its 6 oclock, Thankyou")
+        // For setTimeOut....................
+        // setTimeout(alarm,2000);
+        // console.log("Alarm Set")
+
+        // For Cancel setTimeOut...............
+        // let timerId = setTimeout(alarm, 5000);
+        // console.log(`Alarm Set with timerId ${timerId}`)
+        // clearTimeout(timerId)
+
+        // For setTimeInterval.............
+        //    setInterval(alarm, 2000)
+
+        let intervalId = setInterval(alarm, 1000);
+        setTimeout(()=>clearInterval(intervalId),5000)
+    </script>
+</body>
+</html>

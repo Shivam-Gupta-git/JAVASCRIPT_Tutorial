@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#main-container{
+    height: 800px;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    height: 500px;
+    width: 350px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+#display{
+    height: 60px;
+    width: 95%;
+    margin-top: 5px;
+    font-size: 35px;
+}
+#button-container{
+    height: 500px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.button{
+    height: 70px;
+    width: 70px;
+    font-size: 20px;
+}

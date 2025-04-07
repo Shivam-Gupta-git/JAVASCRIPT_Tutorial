@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#navbar{
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.bag-container{
+    border: 1px solid black;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    position: relative;
+}
+.bag-item-count{
+    position: absolute;
+   background-color: aquamarine;
+   color: brown;
+   left: 20px;
+   top: -10px;
+   border-radius: 50%;
+   font-size: 20px;
+}
+
+
+.bag-page{
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.bag-items-container{
+    width: 500px;
+}
+.bag-item-container{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid gray;
+  margin-top: 10px;
+}
+
+.bag-item-img{
+    width: 150px;
+    height: 180px;
+    margin: 10px;
+}
+.item-right-part{
+  margin-top: 10px;
+  margin-left: -100px;
+}
+.remove-from-cart{
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+.summery-container{
+    width: 400px;
+    border: 1px solid rgb(240, 218, 218);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.total-mrp-container{
+   display: flex;
+   justify-content: space-between;
+}
+.discount-mrp-container{
+    display: flex;
+    justify-content: space-between;
+}
+.convenience-fee-container{
+    display: flex;
+    justify-content: space-between;
+}
+.total-amount-container{
+    display: flex;
+    justify-content: space-between;  
+}
+.place-order{
+    margin: 10px;
+    font-size: 20px;
+    border-radius: none;
+}
+
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practicr-1</title>
+</head>
+
+<body>
+
+    <script>
+           // Q. Create Object to Represent a Product from Myntra......
+        let product1 = {
+            company: "The Sould Store",
+            'item-name': "High Neck T-shirt",
+            price: "999",
+        }
+        console.log(product1);
+        console.log(product1.company);
+        console.log(product1['item-name']);
+        console.log(product1.price)
+
+
+
+        // Q. Create Object to Represent a Product from Myntra using Function......
+        let product2 = {
+            company: "The Sould Store",
+            item_name: "High Neck T-shirt",
+            price: "999",
+            displayItem() {
+                console.log(`Name of the Company is: ${this.company}`)
+                console.log(`Price of the Product is: ${this.price}`)
+            }
+        };
+        product2.displayItem()
+
+    </script>
+</body>
+
+</html>

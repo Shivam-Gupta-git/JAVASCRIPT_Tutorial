@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#container1{
+    height: 300px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+}
+#container1 .box1,
+#container1 .box2,
+#container1 .box3,
+#container1 .box4{
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#container1 .box1 h1{
+    color: red;
+    font-size: 40px;
+}
+
+#container2{
+    height: 400px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#container2 .box1{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.btn1{
+    height:50px;
+    width: 50px;
+}

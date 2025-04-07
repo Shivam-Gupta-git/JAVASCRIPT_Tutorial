@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anonymous-Function</title>
+</head>
+<body>
+    <script>
+       let sum = function(num1, num2){
+            return num1 + num2;
+        };
+        // let newSum = sum;
+        // console.log(sum(4,7))
+        // console.log(newSum(8,9))
+
+        let sumThreeNumber = function(num1, num2, num3, sum){
+            let sum1 = sum (num1, num2)
+            return sum(sum1, num3)
+        }
+        console.log(sumThreeNumber(2,4,6, sum))
+    </script>
+</body>
+</html>
